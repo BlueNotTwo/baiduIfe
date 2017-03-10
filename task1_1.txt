@@ -1,0 +1,98 @@
+
+ <html>
+   <head>
+     <meta charset = "utf-8" />
+     <title>this is web title</title>
+   </head>
+   <body>
+     <h1 align="center">网站标题</h1>
+       <ui>
+         <li><a href="#">导航链接一</a></li>
+         <li><a href="#">导航链接二</a></li>
+         <li><a href="#">导航链接三</a></li>
+       </ui>
+     
+     <h2>文章一级标题</h2>
+     <h3>文章二级标题一</h3>
+     <p>作者:xxx</p>  <p>发表时间:xxxx</p>
+     <p>这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落</p>
+       <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3426429833,1657713536&fm=23&gp=0.jpg">
+       </p>这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落很长很长的段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长<a href="#">这是一个链接,但是不能跳转不信你试试</a>这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落</p>
+       <h2>另外一篇文章一级标题</h2>
+     <h3>文章二级标题一</h3>
+     <p>作者:xxx</p>  <p>发表时间:xxxx</p>
+     <p>这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落<a href="https://www.baidu.com">这时一个链接能跳转到www.baidu.com</a>这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落这是一段很长很长的文字段落</p>
+     <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3426429833,1657713536&fm=23&gp=0.jpg">
+<ui>
+  <li>项目列表一</li>
+  <li>项目列表二</li>
+  <li>项目列表三</li>
+</ui>
+   <h3>图片</h3>
+     <p>好看的图片</p>
+     <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3426429833,1657713536&fm=23&gp=0.jpg"/></br>
+ <p>好看的图片</p>
+     <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3426429833,1657713536&fm=23&gp=0.jpg"></br>
+ <p>好看的图片</p>
+     <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3426429833,1657713536&fm=23&gp=0.jpg">
+   <h2>最后一篇文章一级标题</h2>
+     <h3>文章二级标题一</h3>     
+       <p>作者:xxx   
+         &nbsp&nbsp&nbsp&nbsp
+         发表时间:xxxx</p>
+<oi>
+  <li>排名1</li>
+  <li>排名2</li>
+  <li>排名3</li>
+  
+</oi>
+  下面是一个表格
+<table border=1>
+  <tr>
+    <td>表头</td>
+    <td>表头</td>
+    <td>表头</td>
+    <td>表头</td>
+  </tr>
+  <tr>
+    <td>单元格内容</td>
+    <td>单元格内容</td>
+    <td>单元格内容</td>
+    <td><a href="#">操作</a></td>
+  </tr>
+  <tr>
+    <td>单元格内容</td>
+    <td>单元格内容</td>
+    <td>单元格内容</td>
+    <td><a href="#">操作</a></td>
+  </tr>
+  <tr>
+    <td>总计</td>
+    <td colspan="3" align="center">10000</td>
+  </tr>
+  
+</table>
+
+
+请输入邮箱地址:<input id="emailaddress" type="text"><span>邮箱地址请按要求格式输入</span></br>
+请输入密码:<input id="pwd1" type="password"><span>密码为6到16位英文数字组成</span><br>
+请再次确认密码:<input id="pwd2" type="password"<span>两次输入密码请保持一致</span></br>
+
+性别:<input type="radio" id="nan" name="sex" checked="checked">
+<label for="nan" >男</label>
+<input type="radio" id="nv" name="sex"><label for="nv">女</label></br>
+请选择城市:<select>
+  <option>北京</option>
+  <option selected="true">上海</option>
+</select></br>
+<input type="checkbox" name="hobby">运动
+<input type="checkbox" name="hobby">艺术
+<input type="checkbox" name="hobby">科学<br>
+
+
+自我介绍:<textarea>这是一个多行输入框</textarea>
+<button type="submit">提交</button>
+   </body>
+
+<footer>版权所有&copy</footer>
+</html>
